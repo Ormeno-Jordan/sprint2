@@ -1,0 +1,193 @@
+* {  
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.cajabanner {
+    align-items: center;
+    height: 100%;
+    width: 90vw;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 8vh;
+    width: 99vw;
+    border: 1px solid rgba(245, 108, 58, 0.899);
+    background-color: rgb(241, 190, 168);
+}
+
+.logo {
+    display: flex;
+    height: 60px;
+    width: 10vh;
+    object-fit: contain;
+}
+
+body {
+    background-color: rgb(243, 219, 208);
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}  
+
+main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.imagenlargaindex {
+    height: 225px;
+    width: 80vw;
+    object-fit: cover;
+}
+
+.imagencortaindex {
+    height: 200px;
+}
+    
+footer {
+    background-color: rgb(244, 188, 167);
+    border: 1px solid rgb(246, 151, 116);
+    text-align: center;
+    height: 10vh;
+}
+
+.imagenaboutus {
+    height: 100px;
+}
+
+.imagencontact {
+    height: 400px;
+}
+
+.textoEimagen {
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.textoEimagen p {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 40px;
+}
+
+.textoEimagen img{
+    display: inline-block;
+    object-fit: cover;
+    height: 15rem;
+    width: 15rem;
+}
+
+.imagenYtexto {
+    display: flex;
+    width: 60vw;
+    justify-content: space-between; 
+}
+
+.imagenYtexto img{
+    display: inline-block;
+    height: 160px;
+    margin-bottom: 5px; 
+}
+
+.imagenYtexto p{
+    align-items: center;
+    width: 30vw;
+    display: flex;
+    font-size: 25px;  
+}
+
+.imagencontact{
+    display: flex;
+    width: 400px;
+    object-fit: cover;
+    align-items: center;
+}
+
+.textocontact {
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /*flex-wrap: wrap;*/
+}
+
+.textocontact img {
+    height: 400px;
+    object-fit: contain;
+}
+
+.cajacontacto {
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+}
+
+table, tr, th, td {
+    border-collapse: collapse;
+    text-align: center;
+    border: 4px solid rgb(238, 102, 11);
+    font-size: 50px;
+}
+
+table {
+    margin-top: 70px;
+    margin-bottom: 150px;
+}
+
+.imagenYlista {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.imagenYlista img {
+    height: 175px;
+    margin-top: 50px;
+}
+
+.lista1 {
+    margin-right: 0rem;
+    margin-top: 70px;
+}
+
+.lista2 {
+    margin-right: -14.5rem;
+    margin-top: 70px;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+ol {
+    list-style-type: none;
+}
+
+.footerbenefits {
+    margin-top: 40px;
+}
+
+
